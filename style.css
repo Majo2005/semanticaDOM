@@ -1,0 +1,28 @@
+html {
+    scroll-behavior: smooth;
+}
+
+.flex-container {
+    background-color: paleturquoise;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+}
+
+imgx {
+    height: 100px;
+    width: 200px;
+}
+
+nav {
+    display: flex;
+    justify-content: space-evenly;
+    position: sticky;
+    top: 0px;
+    background-color: #ffed4a;
+}
+
+section {
+    background-color: lightgreen;
+    height: 90vh;
+}
